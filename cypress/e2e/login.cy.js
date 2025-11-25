@@ -1,6 +1,6 @@
 describe("Login", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:4000/");
+    cy.visit(Cypress.env("URL"));
   });
   it("When using valid credentials to login, then show the secret page", () => {
     cy.fixture("credentials").then((credentials) => {
