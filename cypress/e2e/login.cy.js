@@ -1,6 +1,6 @@
 describe("Login", () => {
   beforeEach(() => {
-    cy.visit(Cypress.env("URL"));
+    cy.visit("/");
   });
   it("When using valid credentials to login, then show the secret page", () => {
     cy.fixture("credentials").then((credentials) => {
