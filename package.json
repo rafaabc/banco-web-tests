@@ -22,5 +22,8 @@
   "homepage": "https://github.com/rafaabc/banco-web-tests#readme",
   "dependencies": {
     "cypress": "^14.5.1"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^4.0.2"
   }
 }
